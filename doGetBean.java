@@ -74,6 +74,10 @@ protected <T> T doGetBean(final String name, @Nullable final Class<T> requiredTy
 
 				// Create bean instance.
 				if (mbd.isSingleton()) {
+					/*
+					   这个java的lamda写法，getSingleton会把创建的bean加入到singleTon中，
+					
+					*/			
 					sharedInstance = getSingleton(beanName, () -> {
 						try {
 							return createBean(beanName, mbd, args);
