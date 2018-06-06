@@ -24,3 +24,4 @@ public BeanDefinition parse(Element element, ParserContext parserContext) {
 	}
   
   //spring中有个RuntimeBeanReference类，作为aspect类的运行时动态引用
+Spring默认提供的是org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator，这个类是AOP的核心类
