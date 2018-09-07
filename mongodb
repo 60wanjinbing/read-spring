@@ -1,0 +1,6 @@
+dbpath = /usr/local/mongodb/data
+logpath = /usr/local/mongodb/logs/mongodb.log
+port = 27017
+fork = true
+pidfilepath = /usr/local/mongodb/mongodb.pid
+auth=true
